@@ -1,0 +1,91 @@
+{
+    "Bayesian Optimization": {
+        "MSE": 0.20132062718422952,
+        "Time": 181.4579119682312,
+        "Parameters": {
+            "learning_rate": 0.11195781905322144,
+            "max_depth": 7,
+            "min_child_weight": 5,
+            "n_estimators": 300,
+            "subsample": 0.8776142126290247
+        }
+    },
+    "Grid Search": {
+        "MSE": 0.19913955429863556,
+        "Time": 261.6653892993927,
+        "Parameters": {
+            "learning_rate": 0.1,
+            "max_depth": 7,
+            "min_child_weight": 1,
+            "n_estimators": 300,
+            "subsample": 0.8
+        }
+    },
+    "Random Search": {
+        "MSE": 0.20388848430648865,
+        "Time": 24.900427103042603,
+        "Parameters": {
+            "subsample": 0.9,
+            "n_estimators": 250,
+            "min_child_weight": 2,
+            "max_depth": 7,
+            "learning_rate": 0.13210526315789473
+        }
+    },
+    "Default": {
+        "MSE": 0.2225899267544737,
+        "Time": 0.26487231254577637,
+        "Parameters": {
+            "objective": "reg:squarederror",
+            "base_score": null,
+            "booster": null,
+            "callbacks": null,
+            "colsample_bylevel": null,
+            "colsample_bynode": null,
+            "colsample_bytree": null,
+            "device": null,
+            "early_stopping_rounds": null,
+            "enable_categorical": false,
+            "eval_metric": null,
+            "feature_types": null,
+            "gamma": null,
+            "grow_policy": null,
+            "importance_type": null,
+            "interaction_constraints": null,
+            "learning_rate": null,
+            "max_bin": null,
+            "max_cat_threshold": null,
+            "max_cat_to_onehot": null,
+            "max_delta_step": null,
+            "max_depth": null,
+            "max_leaves": null,
+            "min_child_weight": null,
+            "missing": NaN,
+            "monotone_constraints": null,
+            "multi_strategy": null,
+            "n_estimators": null,
+            "n_jobs": null,
+            "num_parallel_tree": null,
+            "random_state": 42,
+            "reg_alpha": null,
+            "reg_lambda": null,
+            "sampling_method": null,
+            "scale_pos_weight": null,
+            "subsample": null,
+            "tree_method": null,
+            "validate_parameters": null,
+            "verbosity": null
+        }
+    },
+    "OR_Optimization": {
+        "MSE": 0.18999189381099146,
+        "Time": 147.54119777679443,
+        "Parameters": {
+            "n_estimators": 192,
+            "max_depth": 5,
+            "min_child_weight": 1,
+            "learning_rate": 0.10483060403018869,
+            "subsample": 0.7406229768820679
+        }
+    }
+}
