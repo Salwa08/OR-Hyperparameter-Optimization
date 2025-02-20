@@ -10,7 +10,7 @@ The main methods used in this project include:
 
 The project highlights how **OR methods** can enhance hyperparameter optimization beyond traditional techniques.
 
-📖 **For more details, read the full report in** [`docs/repport_v_fr.pdf`](docs/repport_v_fr.pdf).
+📖 **For more details, read the full report in** [`docs/report_v_fr.pdf`](docs/report_v_fr.pdf).
 
 ---
 
